@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qaysar Mohammad Salim ALkhatib - Marketing Designer & AI Specialist</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            color: #333333;
+            background: #ffffff;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+        }
+        
+        /* Header Section */
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #1F3864;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .name {
+            font-size: 26pt;
+            font-weight: bold;
+            color: #1F3864;
+            letter-spacing: 2px;
+            margin-bottom: 8px;
+        }
+        
+        .title {
+            font-size: 14pt;
+            color: #1F3864;
+            margin-bottom: 5px;
+        }
+        
+        .subtitle {
+            font-size: 11pt;
+            color: #666666;
+            font-style: italic;
+        }
+        
+        /* Contact Info */
+        .contact-row {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 10px;
+            font-size: 10pt;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        /* Section Styles */
+        .section {
+            margin-bottom: 18px;
+        }
+        
+        .section-title {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #1F3864;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 1px solid #1F3864;
+            padding-bottom: 5px;
+            margin-bottom: 12px;
+        }
+        
+        /* Keywords Box */
+        .keywords-box {
+            background: #f5f5f5;
+            padding: 10px 15px;
+            border-left: 3px solid #1F3864;
+            font-size: 9pt;
+            line-height: 1.8;
+        }
+        
+        /* Summary */
+        .summary {
+            text-align: justify;
+            margin-bottom: 10px;
+        }
+        
+        /* Experience */
+        .job-title {
+            font-size: 11pt;
+            font-weight: bold;
+            color: #1F3864;
+            margin-bottom: 3px;
+        }
+        
+        .company {
+            font-size: 10pt;
+            font-style: italic;
+        }
+        
+        .date {
+            font-size: 9pt;
+            color: #666666;
+            float: right;
+        }
+        
+        .bullets {
+            margin-left: 20px;
+            margin-top: 5px;
+        }
+        
+        .bullets li {
+            margin-bottom: 4px;
+            font-size: 10pt;
+        }
+        
+        /* Skills Grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        .skill-category {
+            margin-bottom: 10px;
+        }
+        
+        .skill-category-title {
+            font-weight: bold;
+            font-size: 10pt;
+            color: #1F3864;
+            margin-bottom: 5px;
+        }
+        
+        .skill-item {
+            font-size: 9pt;
+            padding: 2px 0;
+            padding-left: 15px;
+            position: relative;
+        }
+        
+        .skill-item::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #1F3864;
+        }
+        
+        /* Education */
+        .edu-item {
+            margin-bottom: 10px;
+        }
+        
+        .edu-degree {
+            font-weight: bold;
+            font-size: 10pt;
+        }
+        
+        .edu-school {
+            font-size: 10pt;
+        }
+        
+        .edu-details {
+            font-size: 9pt;
+            color: #666666;
+            margin-top: 3px;
+        }
+        
+        /* Certification */
+        .cert-box {
+            background: #f8f8f8;
+            padding: 10px;
+            border-left: 2px solid #1F3864;
+            margin-top: 8px;
+        }
+        
+        .cert-title {
+            font-weight: bold;
+            font-size: 10pt;
+        }
+        
+        .cert-org {
+            font-size: 9pt;
+            color: #666666;
+        }
+        
+        /* Languages */
+        .lang-grid {
+            display: flex;
+            gap: 30px;
+        }
+        
+        .lang-item {
+            font-size: 10pt;
+        }
+        
+        .lang-name {
+            font-weight: bold;
+        }
+        
+        .lang-level {
+            color: #666666;
+            font-size: 9pt;
+        }
+        
+        /* AI Tools */
+        .ai-tools {
+            font-size: 9pt;
+            color: #1F3864;
+            font-weight: 500;
+        }
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #cccccc;
+            font-size: 9pt;
+            color: #666666;
+        }
+        
+        /* Print Optimization */
+        @media print {
+            body {
+                padding: 0;
+            }
+            .section {
+page-break-inside: avoid;
+            }
+        }
+        
+        /* ATS Optimization - Clean format, no complex formatting */
+        .ats-friendly {
+            /* ATS systems read simple text better */
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <div class="name">QAYSAR MOHAMMAD SALIM ALKHATIB</div>
+        <div class="title">Marketing Designer & Digital Marketing Specialist</div>
+        <div class="subtitle">AI-Powered Creative Solutions Expert</div>
+        <div class="contact-row">
+            <span class="contact-item">hollywood.sezar.234@gmail.com</span>
+            <span class="contact-item">QaysarAlkhatib40@gmail.com</span>
+            <span class="contact-item">+962 7 7594 8077</span>
+            <span class="contact-item">Zarqa, Jordan</span>
+        </div>
+    </div>
+
+    <!-- KEYWORDS (ATS Priority) -->
+    <div class="section">
+        <div class="section-title">Keywords & Expertise</div>
+        <div class="keywords-box">
+            Graphic Design | Adobe Photoshop | Adobe Illustrator | Digital Marketing | Social Media Marketing | SEO Optimization | Content Creation | Brand Identity | Marketing Strategy | Visual Communication | AI-Powered Design | Data Analysis | Campaign Management | Customer Engagement | Market Research | AI Image Generation | AI Video Creation | Marketing Automation | Copywriting | Visual Marketing
+        </div>
+    </div>
+
+    <!-- PROFESSIONAL SUMMARY -->
+    <div class="section">
+        <div class="section-title">Professional Summary</div>
+        <p class="summary ats-friendly">
+            Aspiring Marketing Designer currently undergoing intensive training in Graphic Design and Digital Marketing. 
+            Skilled in Adobe Creative Suite (Photoshop, Illustrator) and developing compelling visual content for social media campaigns. 
+            Combines traditional design excellence with cutting-edge AI-powered tools to deliver innovative marketing solutions. 
+            Certified by Digital Opportunity Trust Jordan (UNICEF) with 60 hours of hands-on training in graphic design and social media marketing. 
+            Eager to leverage design skills and AI tools to contribute to marketing teams and build a successful career in the creative industry.
+        </p>
+    </div>
+
+    <!-- TRAINING & PROJECTS -->
+    <div class="section">
+        <div class="section-title">Training & Academic Projects</div>
+        
+        <div class="job-title">Graphic Design & Social Media Training</div>
+        <div class="company"><span class="date">October 2023</span> | Digital Opportunity Trust Jordan (UNICEF)</div>
+        <ul class="bullets">
+            <li>Completed 60 hours of comprehensive training in graphic design fundamentals</li>
+            <li>Developed social media marketing strategies and campaign creation skills</li>
+            <li>Created visual content portfolios for various digital platforms</li>
+            <li>Applied AI-enhanced tools for content generation and optimization</li>
+        </ul>
+        
+        <div class="job-title" style="margin-top: 12px;">School Technical Projects</div>
+        <div class="company"><span class="date">2020 - 2021</span> | Hassan Khaled Abu Al-Huda Secondary School</div>
+        <ul class="bullets">
+            <li>Developed technical problem-solving skills through office equipment maintenance projects</li>
+            <li>Applied logical analysis and systematic troubleshooting methodologies</li>
+            <li>Strengthened teamwork and collaborative project execution abilities</li>
+        </ul>
+    </div>
+
+    <!-- AI-ENHANCED SKILLS -->
+    <div class="section">
+        <div class="section-title">AI-Enhanced Skill Set</div>
+        
+        <div class="skills-grid">
+            <div class="skill-category">
+                <div class="skill-category-title">Design & Creative</div>
+                <div class="skill-item">Adobe Photoshop (Professional)</div>
+                <div class="skill-item">Adobe Illustrator (Professional)</div>
+                <div class="skill-item">Brand Identity Development</div>
+                <div class="skill-item">Visual Communication Design</div>
+                <div class="skill-item">Marketing Collateral Creation</div>
+            </div>
+            
+            <div class="skill-category">
+                <div class="skill-category-title">AI-Powered Digital Marketing</div>
+                <div class="skill-item">AI-Enhanced Content Generation</div>
+                <div class="skill-item">Data Analysis (AI-Assisted)</div>
+                <div class="skill-item">Social Media Strategy</div>
+                <div class="skill-item">SEO Optimization</div>
+                <div class="skill-item">Automated Marketing Workflows</div>
+            </div>
+        </div>
+        
+        <div class="skill-category" style="margin-top: 10px;">
+            <div class="skill-category-title">Professional Competencies</div>
+            <div style="font-size: 9pt;">
+                Creative Problem-Solving | Teamwork & Collaboration | Adaptability & Fast Learning | 
+                Attention to Detail | Task Management Under Pressure | Customer Engagement & Communication
+            </div>
+        </div>
+    </div>
+
+    <!-- AI TOOLS & TECHNOLOGIES -->
+    <div class="section">
+        <div class="section-title">AI Tools & Technologies</div>
+        <div class="ai-tools">
+            Large Language Models (LLM) | AI Image Generation | AI Video Creation | AI-Powered Data Analysis | 
+            Marketing Automation | Content Automation Tools | Social Media Management Platforms | SEO & Analytics Tools
+        </div>
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="section">
+        <div class="section-title">Education</div>
+        <div class="edu-item">
+            <div class="edu-degree">Secondary School Certificate - Industrial/Computing Branch</div>
+            <div class="edu-school">Hassan Khaled Abu Al-Huda Secondary School</div>
+            <div class="edu-details">
+                Office Equipment Maintenance Specialization | Graduation: November 2021 | Score: 75.85%
+            </div>
+        </div>
+        <div style="font-size: 9pt; margin-top: 5px;">
+            Technical foundation in diagnostic methodologies, logical analysis, and systematic troubleshooting skills.
+        </div>
+    </div>
+
+    <!-- CERTIFICATIONS -->
+    <div class="section">
+        <div class="section-title">Certifications & Training</div>
+        <div class="cert-box">
+            <div class="cert-title">Graphic Design & Social Media Certification</div>
+            <div class="cert-org">Digital Opportunity Trust Jordan (DOT) - Supported by UNICEF</div>
+            <div style="font-size: 9pt;">Issued: October 16, 2023 | 60 Hours Training</div>
+            <div style="font-size: 9pt; margin-top: 5px;">
+                Comprehensive graphic design fundamentals | Social media marketing strategies | Digital campaign creation
+            </div>
+        </div>
+    </div>
+
+    <!-- LANGUAGES -->
+    <div class="section">
+        <div class="section-title">Languages</div>
+        <div class="lang-grid">
+            <div class="lang-item">
+                <span class="lang-name">Arabic:</span>
+                <span class="lang-level">Native Speaker</span>
+            </div>
+            <div class="lang-item">
+                <span class="lang-name">English:</span>
+                <span class="lang-level">Intermediate (Professional Working Proficiency)</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- REFERENCES -->
+    <div class="section">
+        <div class="section-title">References</div>
+        <div style="display: flex; gap: 40px;">
+            <div>
+                <div style="font-weight: bold; font-size: 10pt;">Mohammed Al-Sheikh</div>
+                <div style="font-size: 9pt;">Graphic Design Professional | Hashemite University</div>
+                <div style="font-size: 9pt; color: #666666;">+962 7 8997 7560</div>
+            </div>
+            <div>
+                <div style="font-weight: bold; font-size: 10pt;">Anas Al-Khatib</div>
+                <div style="font-size: 9pt;">Cashier | Alaa Abu Shehab Mall</div>
+                <div style="font-size: 9pt; color: #666666;">+962 7 8522 4844</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        Portfolio Available Upon Request | AI-Powered Creative Solutions | LinkedIn: QaysarAlkhatib
+    </div>
+</body>
+</html>
